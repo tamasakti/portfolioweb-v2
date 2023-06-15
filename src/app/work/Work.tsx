@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Work = () => {
   const [active, setActive] = useState(false);
@@ -23,7 +24,9 @@ const Work = () => {
           height={200}
         />
         <button className="border-2 border-font-primary text-lg bg-font-primary text-white px-8 py-2 rounded-lg hover:bg-white hover:text-font-primary transition duration-200 ease-in-out">
-          View Demo
+          <Link href="https://musiclab-id.vercel.app" target="_blank">
+            View Demo
+          </Link>
         </button>
       </div>
       <div className="flex flex-col justify-center items-center w-[20rem] h-[20rem] shadow-lg hover:scale-110 bg-white gap-6">
