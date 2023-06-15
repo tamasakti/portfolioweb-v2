@@ -72,7 +72,7 @@ const Form = () => {
           </button>
         </form>
       </div>
-      <div className="hidden lg:w-[15%] bg-font-primary h-[40rem] transition-all duration-300 ease-in-out"></div>
+      <div className="w-[15%] bg-font-primary h-[40rem] transition-all duration-300 ease-in-out"></div>
       {/* <div
         className={`${
           !active

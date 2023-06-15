@@ -1,7 +1,12 @@
 import React from "react";
+import Work from "./Work";
 
 const page = () => {
-  return <div>page</div>;
+  return (
+    <>
+      <Work />
+    </>
+  );
 };
 
 export default page;
